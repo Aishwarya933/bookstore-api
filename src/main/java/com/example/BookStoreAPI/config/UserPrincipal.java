@@ -1,7 +1,7 @@
-package com.example.BookStoreAPI;
+package com.example.BookStoreAPI.config;
 
 import com.example.BookStoreAPI.entity.AppUser;
-import org.jspecify.annotations.Nullable;
+//import org.jspecify.annotations.Nullable;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

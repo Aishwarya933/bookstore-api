@@ -1,9 +1,8 @@
 package com.example.BookStoreAPI.service;
 
-import com.example.BookStoreAPI.UserPrincipal;
+import com.example.BookStoreAPI.config.UserPrincipal;
 import com.example.BookStoreAPI.entity.AppUser;
 import com.example.BookStoreAPI.repo.AppUserRepository;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
